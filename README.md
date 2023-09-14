@@ -37,6 +37,7 @@ exercise model, user model.
 
 Testing backend (Postman or Insonmia):
 1. POST : http://localhost:5001/users/add 
+
 {
     "username": "beau"
 }
@@ -44,6 +45,7 @@ Testing backend (Postman or Insonmia):
 2. GET : http://localhost:5001/users/
 
 3. POST : http://localhost:5001/exercises/add
+
 {
     "username": "beau",
     "description": "run",
@@ -56,6 +58,7 @@ Testing backend (Postman or Insonmia):
 5. GET : http://localhost:5001/exercises/650358859b88c36ffec7f2a3
 
 6. POST : http://localhost:5001/exercises/update/650358859b88c36ffec7f2a3
+
 {
     "username": "beau",
     "description": "walk",

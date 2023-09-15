@@ -19,23 +19,32 @@ In the project, we have:
 ## Process of project done
 
 folder name - mern-excercise-tracker
+
 (npx create-react-app)
+
 All the backend is in separate folder
+
 (mkdir backend)
+
 In the backend (cd backend):
+
 npm init -y
+
 npm install express cors mongoose dotenv
+
 here cors(ajex request - access out the server from the server), mongoose(mongo db to node), dotenv(load env variables - stored in the file)
+
 (install node globally, node.js)
+
 sudo npm install -g nodemon
 
 To run the node:
 nodemon server
 
-Models:
+### Models:
 exercise model, user model.
 
-Testing backend (Postman or Insonmia):
+### Testing backend (Postman or Insonmia):
 1. POST : http://localhost:5001/users/add 
 
 {
@@ -68,9 +77,11 @@ Testing backend (Postman or Insonmia):
 
 7. DELETE : http://localhost:5001/exercises/650358859b88c36ffec7f2a3
 
-Frontend:
+### Frontend:
 
-
+npm install bootstrap
+npm install react-datepicker
+npm install axios
 
 ### Things Used
 
